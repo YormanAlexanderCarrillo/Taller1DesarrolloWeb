@@ -1,0 +1,9 @@
+.background-image {
+    background-image: url('../img/blue.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.gray-background{
+    background-color: #ECECEC;
+}

@@ -1,0 +1,16 @@
+<%- include('./templates/header.ejs') %>
+<body>
+<%- include('./templates/nav.ejs') %>
+
+<form>
+    <div class="mb-3">
+        <label for="inputNumberClient" class="form-label">Consulta Cliente</label>
+        <input type="number" id="inputNumberClient" name="inputNumberClient" class="form-control" placeholder="Numero Cedula">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Consultar</button>
+</form>
+
+<%- include('./templates/Footer.ejs') %>
+</body>
+</html>

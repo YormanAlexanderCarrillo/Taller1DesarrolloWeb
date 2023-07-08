@@ -1,0 +1,43 @@
+<%- include('./templates/header.ejs') %>
+<body>
+<div class="d-flex align-items-center justify-content-center vh-100 gray-background ">
+    <div class="d-flex align-items-center justify-content-center bg-white w-50 h-50 row">
+
+        <div class=" p-5 col-sm-6 h-100 background-image ">
+            <div class="mb-12 ">
+                <h3 class="text-white  text-center">Description </h3>
+            </div>
+            <br>
+            <div class="mb-12">
+                <p class="text-white text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis corporis id illo, inventore ipsum
+                    iusto magni maxime minus modi nam odit officiis omnis quisquam quo rem unde ut. Id, itaque.
+                </p>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-center col-sm-6 h-100 ">
+            <form action="/dashBoard" method="post">
+                <legend class="text-primary text-center">Login Account</legend>
+                <div class="mb-12">
+                    <label for="inputUser" class="form-label text-black">Username</label>
+                    <input type="text" id="inputUser" name="inputUser" class="form-control" placeholder="Username">
+                </div>
+                <br>
+                <div class="mb-12">
+                    <label for="inputPassword" class="form-label">Password</label>
+                    <input type="password" id="inputPassword" name="inputPassword" class="form-control"
+                           placeholder="Password">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary w-50 ">Login</button>
+            </form>
+        </div>
+    </div>
+
+
+</div>
+<script href="./../resource/user.js"></script>
+<%- include('./templates/Footer.ejs') %>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "customer": {
+    "123456789": {
+      "name": "Alexander",
+      "lastname": "Carrillo",
+      "phone": "3227076137",
+      "address": "Cra 3 N 3-62"
+    },
+    "987654321": {
+      "name": "Maria ",
+      "lastname": "Fuentes",
+      "phone": "3103101012",
+      "address": "Calle 4 N 6a-82 "
+    }
+  }
+}
